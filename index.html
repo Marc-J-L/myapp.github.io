@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keyword="P&G Blog ,Subscribe Management System, Programming, Food, Travel, Gamming, Music"> 
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Welcome to Our Blog</title>
+</head>
+
+<body class="flex h-screen bg-blue-300">
+    <div class="max-w-xs w-full m-auto bg-indigo-100 rounded-xl p-7 text-center shadow-2xl">
+        <img src="images/001.png" alt="Blog-logo-image" class="w-20 mx-auto mb-5">
+        <h2 class="text-sky-800 text-2xl font-bold">Welcome to P&G Blog</h2>
+        <br>
+        <a href="register.php"
+            class="w-160 bg-blue-600 hover:bg-pink-700 text-white font-bold py-2 px-4  mb-6 rounded-full">Register and
+            Subscribe</a><br>
+        <br>
+        <a href="src/subscribers.php"
+            class="w-200 bg-blue-700 hover:bg-pink-700 text-white font-bold py-2 px-9 mb-6 rounded-full">View  
+            Subscribers</a><br>
+        <br><br>
+        <!-- Link to User Account -->
+        <form action="account.php" method="get">
+
+            <label for="username">If you have an accout , please enter :</label>
+            <br><br>
+            <input type="text" id="username" name="username" required class="w-4/5 px-2 py-1 border-2 rounded-xl transition duration-300 border-gray-100 focus:border-blue-800 focus:outline-none focus-effect">
+            <br><br>
+            <input type="submit" value="My Account"
+                class="animate-pulse w-4/5  bg-blue-700 hover:bg-pink-700 text-white font-bold py-2 px-4 mb-6 rounded-full ">
+        </form>
+    </div>
+
+</body>
+
+</html>

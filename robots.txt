@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /SMS/src/
+Disallow: /SMS/vendor/
+Disallow: /SMS/images/
+Allow: /SMS/
+
+Sitemap: localhost/temp/SMS/sitemap.xml
